@@ -1,11 +1,15 @@
 import React from 'react';
+import Routes from "./routes";
 
-function App() {
-  return (
+import "./styles.css"
+
+import Header from "./components/Header";
+
+const App = () => (
     <div className="App">
-        <h1>Hello World</h1>
+        <Header/>
+        <Routes/>
     </div>
-  );
-}
+);
 
 export default App;
