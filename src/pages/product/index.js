@@ -22,7 +22,7 @@ export default class Product extends Component {
                 <h1>{product.title}</h1>
                 <p>{product.description}</p>
                 <p>
-                    URL: <a target="_blank" href={product.url}>{product.url}</a>
+                    URL: <a target="_blank" rel="noopener noreferrer"  href={product.url}>{product.url}</a>
                 </p>
             </div>
         );
